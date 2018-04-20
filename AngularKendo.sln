@@ -32,7 +32,5 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPathV6 = ..\..\..\ahm_sei_common_dev\SourceCode\packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;m_parts_common_dev\SourceCode\packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;m_parts_common_dev\SourceCode\packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45
-		EnterpriseLibraryConfigurationToolBinariesPath = ..\..\..\ahm_sei_common_dev\SourceCode\packages\Unity.Interception.2.1.505.2\lib\NET35;..\..\..\ahm_sei_common_dev\SourceCode\packages\Unity.2.1.505.2\lib\NET35
 	EndGlobalSection
 EndGlobal
