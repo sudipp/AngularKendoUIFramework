@@ -1,0 +1,17 @@
+﻿<div class="container">
+    <div class="row" style="overflow: hidden">
+        <div class="col-md-12">
+            <sp-grid grid-id="spGridDemoGridName"
+                        grid-options="grdOptions"
+                        grid-crud-options="grdCrudOptions"
+                        grid-toolbar-options="grdToolbarOptions" >
+            </sp-grid>
+        </div>
+    </div>
+    <div class="commndbar win nav navbar-fixed-bottom">
+        <button class="k-button" id="btnNewRequest" title="NewRequest" ng-click="NewRequest($event)" ng-disabled="!canAddRequest()">New</button>
+        <button class="k-button" id="btnDeleteRequest" title="DeleteRequest" ng-click="DeleteRequest($event)" ng-disabled="!isDeleteble()">Delete</button>
+        <button class="k-button" id="btnCancelRequest" title="Cancel" ng-click="CancelChanges($event)" ng-disabled="!isCancelable()">Cancel</button>
+        <button class="k-button" id="btnSaveRequest" title="SaveRequest" ng-click="SaveRequest($event)" ng-disabled="!isSaveable()">Save</button>
+    </div>
+</div>

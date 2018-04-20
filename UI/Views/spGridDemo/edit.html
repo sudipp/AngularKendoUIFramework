@@ -1,0 +1,29 @@
+﻿<form class="form-group" ng-controller="spGridDemoController">
+    <div class="row">
+        <div class=" col-md-12">
+            <label class="gridLabel grid-header-label-text">Edit Product</label>
+        </div>
+    </div>
+    <div style="border-top: 1px solid; padding: 10px;">
+        <div class="row">
+            <div class="col-md-5">
+                <label for="ProductName">Product Name</label>
+                <input type="text" class="k-input k-textbox" name="ProductName" required="required" data-bind="value:ProductName" style="width: 150px;">
+            </div>
+            <div class="col-md-3">
+                <label for="UnitPrice">Unit Price</label>
+                <input kendo-numeric-text-box data-bind="value:UnitPrice" style="width: 80px;" />
+            </div>
+            <div class="col-md-4">
+                <label for="UnitsInStock">Units In Stock</label>
+                <input kendo-numeric-text-box data-bind="value:UnitsInStock" style="width: 80px;" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <label for="Discontinued">Discontinued</label>
+                <input class="k-input" type="checkbox" name="Discontinued" data-bind="checked:Discontinued">
+            </div>
+        </div>
+    </div>
+</form>
